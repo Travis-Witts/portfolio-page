@@ -1,11 +1,19 @@
 .jumbotron{
     background-image: url(../images/jumbotron_bg.jpg);
     background-size: cover;
-    height: 100%;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
-.container {
-    background-color: grey;
-    height: 100px;
-    object-fit:fill;
+.container-fluid {
+    background-color: lightgrey;
+    height:100%;
+}
+.lead, .display-4, .jumbo-p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.bottom-cards {
+    margin-top:30px;
 }
