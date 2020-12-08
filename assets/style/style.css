@@ -15,20 +15,23 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 .container, .container-fluid {
-    height: 100%;
+    min-height: 100%;
+}
+.bottom-cards, .project-cards {
+    margin-top:30px;
 }
 p {
     font-size: 14px;
     line-height: 21px;
 }
 .container-fluid {
-    background-color: lightgrey;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .container {
     color: white;
-}
-.bottom-cards {
-    margin-top:30px;
 }
 .contact-title {
     text-align: center;
@@ -38,6 +41,9 @@ p {
 }
 .contact-form {
     padding: 50px;
+}
+.project-cards {
+    margin-bottom: 138px;
 }
 footer {
     height:50px;
