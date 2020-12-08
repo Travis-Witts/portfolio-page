@@ -8,25 +8,27 @@
 html, body {
     min-height:100%;
 }
-.container-fluid {
-    background-color: lightgrey;
-    height:100%;
+.container, footer {
+    background-color: #212529;
 }
 .lead, .display-4, .jumbo-p {
     font-family: 'Montserrat', sans-serif;
-
 }
-.bottom-cards {
-    margin-top:30px;
+.container, .container-fluid {
+    height: 100%;
 }
-footer {
-    height:50px;
-    background-color:#212529;
+p {
+    font-size: 14px;
+    line-height: 21px;
+}
+.container-fluid {
+    background-color: lightgrey;
 }
 .container {
     color: white;
-    background-color: #212529;
-    height: 100%;
+}
+.bottom-cards {
+    margin-top:30px;
 }
 .contact-title {
     text-align: center;
@@ -36,4 +38,7 @@ footer {
 }
 .contact-form {
     padding: 50px;
+}
+footer {
+    height:50px;
 }
